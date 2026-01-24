@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Home</title>
+    <style>
+        body {
+            background-color: white;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            margin: 0;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            width: 100%;
+        }
+        
+        .box {
+            height: 200px;
+            border: 2px solid black;
+            border-radius: 15px;
+            overflow: hidden;
+            position: relative;
+            transition: transform 0.3s ease;
+        }
+        
+        .box:hover {
+            transform: scale(1.05);
+        }
+        
+        .box a {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        @media (max-width: 768px) {
+            .projects-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .projects-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="projects-grid">
+		    <div class="box">
+                <a href="https://nagasakimark.github.io/digitalenglishboard" target="_blank">
+                    <img src="./images/digitalenglishboard.png" alt="Digital English Board">
+                </a>
+            </div>
+		    <div class="box">
+                <a href="https://nagasakimark.github.io/splatoon" target="_blank">
+                    <img src="./images/splatoon.png" alt="Splatoon">
+                </a>
+            </div>
+		    <div class="box">
+                <a href="https://nagasakimark.github.io/poll" target="_blank">
+                    <img src="./images/poll.png" alt="Classroom Polls">
+                </a>
+            </div>
+		    <div class="box">
+                <a href="https://nagasakimark.github.io/cashregister2" target="_blank">
+                    <img src="./images/restaurant2.png" alt="Cash Register 2">
+                </a>
+            </div>
+		    <div class="box">
+                <a href="https://nagasakimark.github.io/trickortreat" target="_blank">
+                    <img src="./images/trickortreat.png" alt="Trick or Treat">
+                </a>
+            </div>
+		    <div class="box">
+                <a href="https://nagasakimark.github.io/witchsoup" target="_blank">
+                    <img src="./images/magicsoup.png" alt="Magic Soup">
+                </a>
+            </div>
+		    <div class="box">
+                <a href="https://nagasakimark.github.io/hamanomachi2" target="_blank">
+                    <img src="./images/hamanomachi2.png" alt="Hamanomachi 2">
+                </a>
+            </div>
+		    <div class="box">
+                <a href="https://nagasakimark.github.io/hamanomachi2audio" target="_blank">
+                    <img src="./images/hamanomachi2audio.png" alt="Hamanomachi 2 Audio">
+                </a>
+            </div>
+		    <div class="box">
+                <a href="https://nagasakimark.github.io/champon2" target="_blank">
+                    <img src="./images/champon2.png" alt="Champon Maker 2">
+                </a>
+            </div>
+		    <div class="box">
+                <a href="https://nagasakimark.github.io/worksheetgenerator" target="_blank">
+                    <img src="./images/worksheetgenerator.png" alt="Worksheet Generator">
+                </a>
+            </div>
+            <div class="box">
+                <a href="https://nagasakimark.github.io/howdoyouspell" target="_blank">
+                    <img src="./images/howdoyouspell.png" alt="How do you spell...?">
+                </a>
+            </div>
+            <div class="box">
+                <a href="https://nagasakimark.github.io/wordle" target="_blank">
+                    <img src="./images/wordle.png" alt="Wordle">
+                </a>
+            </div>
+		    <div class="box">
+                <a href="https://nagasakimark.github.io/japanguesser" target="_blank">
+                    <img src="./images/japanguesser.png" alt="Japan Guesser">
+                </a>
+            </div>
+            <div class="box">
+                <a href="https://nagasakimark.github.io/globeguesser" target="_blank">
+                    <img src="./images/globeguesser.png" alt="Globe Guesser">
+                </a>
+            </div>
+            <div class="box">
+                <a href="https://nagasakimark.github.io/shaperunner/" target="_blank">
+                    <img src="./images/shapes.png" alt="Shape Runner">
+                </a>
+            </div>
+            
+            <div class="box">
+                <a href="https://nagasakimark.github.io/ALTPlanner/" target="_blank">
+                    <img src="./images/planner.png" alt="ALT Planner">
+                </a>
+            </div>
+            
+            <div class="box">
+                <a href="https://nagasakimark.github.io/cashregister/" target="_blank">
+                    <img src="./images/restaurant.png" alt="Cash Register">
+                </a>
+            </div>
+            
+            <div class="box">
+                <a href="https://nagasakimark.github.io/sortinghat/" target="_blank">
+                    <img src="./images/hogwarts.png" alt="Sorting Hat">
+                </a>
+            </div>
+            
+            <div class="box">
+                <a href="https://nagasakimark.github.io/champon" target="_blank">
+                    <img src="./images/champon.png" alt="Champon">
+                </a>
+            </div>
+            
+            <div class="box">
+                <a href="https://nagasakimark.github.io/hamanomachi" target="_blank">
+                    <img src="./images/hamanomachi.png" alt="Hamanomachi">
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
